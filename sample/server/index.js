@@ -30,7 +30,7 @@ function hmac_rawurlsafe_base64_string(distinct_id, secret) {
 
 app.post('/register', (req, res) => {
   const { name, email, password } = req.body;
-  const subscriberId = hmac_rawurlsafe_base64_string(email, "your-secret-key"); // Create subscriberId
+  const subscriberId = hmac_rawurlsafe_base64_string(email, "eHrvAlcrNRyBaiFbv3DGM33fCfFBDDYa3xHU1gv9dWM"); // Create subscriberId
 
   RegisterModel.findOne({ email: email })
     .then(user => {
