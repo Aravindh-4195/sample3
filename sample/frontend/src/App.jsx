@@ -27,13 +27,16 @@ function App() {
   };
 
   return (
-    <div className="d-flex justify-content-center align-items-center bg-primary vh-100">
-       
-          <SuprSendInbox
+    <div>
+      <SuprSendInbox
             workspaceKey="C1xJOlNLSoA4Z1In3nIf"
             subscriberId={subscriberId} // Use the subscriberId from state
             distinctId={email}
+            id="temp"
           />
+    <div className="d-flex justify-content-center align-items-center bg-primary vh-100">
+       
+          
         
       <div className="bg-white p-3 rounded w-25">
         <h2>Register</h2>
@@ -86,7 +89,7 @@ function App() {
         </form>
         
       </div>
-    </div>
+    </div></div>
   );
 }
 
