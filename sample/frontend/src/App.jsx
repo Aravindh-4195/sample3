@@ -30,7 +30,7 @@ function App() {
     <div className="d-flex justify-content-center align-items-center bg-primary vh-100">
        
           <SuprSendInbox
-            workspaceKey="<workspace_key>"
+            workspaceKey="C1xJOlNLSoA4Z1In3nIf"
             subscriberId={subscriberId} // Use the subscriberId from state
             distinctId={email}
           />
