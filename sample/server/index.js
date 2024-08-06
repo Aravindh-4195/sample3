@@ -7,7 +7,7 @@ const crypto = require('crypto');
 const app = express();
 
 app.use(cors({
-  origin: ["https://deploy-mern-frontend.vercel.app"],
+  origin: ["https://sample3-front.vercel.app"],
   methods: ["POST", "GET"],
   credentials: true
 }));
